@@ -1,3 +1,72 @@
+@import "fontes/font-face";
+
 @import "painel-dlx.config";
 @import "vendor/painel-dlx/dlx-ui/init";
 
+* {
+    // Tamanho
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    // Visual
+    background: #F4F7FB;
+    overflow-x: hidden;
+
+    // Texto
+    font: 14px $font-sans-serif;
+
+    // Margens
+    padding: 95px 1% 40px;
+
+    .wrapper {
+        // Transições
+        transition: filter .1s;
+
+        // Tamanho
+        max-width: 1460px;
+
+        // Margens
+        margin: auto;
+    }
+
+    &.mostrando-menu {
+        .wrapper {
+            // Visual
+            filter: blur(4px);
+        }
+
+        .menu-principal {
+            // Visual
+            display: flex;
+        }
+    }
+}
+
+// Layout
+//@import "layout/*";
+//
+//// Componentes
+//@import "componentes/*";
+//
+//// Flex
+//@import "componentes/flex/*";
+//
+//// Links
+//@import "componentes/links/*";
+//
+//// Paginação
+//@import "componentes/paginacao/*";
+//
+//// Ajax
+//@import "componentes/ajax/*";
+//
+//// Botões
+//@import "componentes/botoes/*";
+//
+//// Formulário
+//@import "componentes/form/*";
+//
+//// Widgets
+//@import "componentes/widget/*";
