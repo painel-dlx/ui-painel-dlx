@@ -47,26 +47,7 @@ body {
 // Layout
 @import "layout/*";
 
-//// Componentes
-//@import "componentes/*";
-//
-//// Flex
-//@import "componentes/flex/*";
-//
-//// Links
-//@import "componentes/links/*";
-//
-//// Paginação
-//@import "componentes/paginacao/*";
-//
-//// Ajax
-//@import "componentes/ajax/*";
-//
-//// Botões
-//@import "componentes/botoes/*";
-//
-//// Formulário
-//@import "componentes/form/*";
-//
-//// Widgets
-//@import "componentes/widget/*";
+// Componentes
+@import "componentes/*";
+@import "componentes/*/*";
+
