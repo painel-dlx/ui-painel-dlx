@@ -15,7 +15,7 @@
             "url": "/Volumes/Arquivos/Pessoal/dlepera/ProjetosWeb/painel-dlx/dlx-ui"
         }
     ],
-    "require": {
+    "require-dev": {
         "painel-dlx/dlx-ui": "dev-master"
     }
 }
