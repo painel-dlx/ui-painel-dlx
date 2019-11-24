@@ -1,9 +1,8 @@
 {
     "name": "painel-dlx/ui-painel-dlx",
     "description": "Tema do Painel DLX",
-    "minimum-stability": "dev",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Diego Lepera",
@@ -18,5 +17,8 @@
     ],
     "require-dev": {
         "painel-dlx/dlx-ui": "dev-master"
+    },
+    "require": {
+        "components/jquery": "^3.4"
     }
 }
