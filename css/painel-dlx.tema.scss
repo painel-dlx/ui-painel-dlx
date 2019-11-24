@@ -1,11 +1,10 @@
 @import "fontes/font-face";
 @import "painel-dlx.config";
 
-@import "../vendor/painel-dlx/dlx-ui/config/tipografia";
-@import "../vendor/painel-dlx/dlx-ui/tipografia/titulo-h4";
-@import "../vendor/painel-dlx/dlx-ui/grid-flex/flex-box";
-@import "../vendor/painel-dlx/dlx-ui/icones/icone-pos";
-
+@import "../vendor/painel-dlx/dlx-ui/config/*";
+@import "../vendor/painel-dlx/dlx-ui/tipografia/*";
+@import "../vendor/painel-dlx/dlx-ui/grid-flex/*";
+@import "../vendor/painel-dlx/dlx-ui/icones/*";
 
 * {
     // Tamanho
@@ -53,4 +52,4 @@ body {
 
 // Componentes
 @import "componentes/form-checkbox-tooggle";
-@import "css/componentes/*/*";
+@import "componentes/*/*";
