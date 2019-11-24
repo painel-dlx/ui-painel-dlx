@@ -48,8 +48,8 @@ body {
 }
 
 // Layout
-@import "layout/dlx-rodape";
+@import "layout/*";
 
 // Componentes
-@import "componentes/form-checkbox-tooggle";
+@import "componentes/*";
 @import "componentes/*/*";
