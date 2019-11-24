@@ -3,6 +3,7 @@
     "description": "Tema do Painel DLX",
     "minimum-stability": "dev",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Diego Lepera",
@@ -11,7 +12,7 @@
     ],
     "repositories": [
         {
-            "type": "vcs",
+            "type": "path",
             "url": "/Volumes/Arquivos/Pessoal/dlepera/ProjetosWeb/painel-dlx/dlx-ui"
         }
     ],

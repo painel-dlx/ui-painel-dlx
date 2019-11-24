@@ -1,0 +1,18 @@
+.link-detalhe {
+    $cor-destaque: #1F8B8C;
+
+    @extend .so-icone;
+    @extend .icone-detalhe;
+
+    &::before {
+        // Texto
+        color: gray;
+    }
+
+    &:hover {
+        &::before {
+            // Texto
+            color: $cor-destaque;
+        }
+    }
+}

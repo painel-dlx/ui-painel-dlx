@@ -1,0 +1,18 @@
+.link-excluir {
+    $cor-destaque: #990500;
+
+    @extend .so-icone;
+    @extend .icone-excluir;
+
+    &::before {
+        // Texto
+        color: gray;
+    }
+
+    &:hover {
+        &::before {
+            // Texto
+            color: $cor-destaque;
+        }
+    }
+}

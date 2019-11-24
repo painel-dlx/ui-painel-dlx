@@ -1,0 +1,76 @@
+.form-checkbox-tooggle {
+    // Visual
+    visibility: hidden;
+
+    // Posicionamento
+    position: fixed;
+    top: -9999px;
+    left: -9999px;
+
+    & + label {
+        // Posicionamento
+        position: relative;
+
+        // Visual
+        display: inline-block;
+
+        // Visual
+        cursor: pointer;
+
+        &::before,
+        &::after {
+            // Conteúdo
+            content: '';
+
+            // Posicionamento
+            position: absolute;
+            top: 50%;
+            left: 100%;
+
+            // Transformar
+            transform: translateY(-50%);
+
+            // Visual
+            display: inline-block;
+
+            // Margens
+            margin-left: 8px;
+        }
+
+        &::before {
+            // Tamanho
+            width: 24px;
+            height: 7px;
+
+            // Visual
+            border-radius: 4px;
+            background: #DDD;
+        }
+
+        &::after {
+            $tamanho: 12px;
+
+            // Tamanho
+            width: $tamanho;
+            height: $tamanho;
+
+            // Visual
+            border-radius: 50%;
+            background: #FFF;
+            box-shadow: 0 0 5px rgba(black, .2);
+
+            // Transições
+            transition: transform .35s;
+        }
+    }
+
+    &:checked + label {
+        &::after {
+            // Visual
+            background: #21abac;
+
+            // Transformar
+            transform: translateY(-50%) translateX(100%);
+        }
+    }
+}

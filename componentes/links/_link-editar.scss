@@ -1,0 +1,18 @@
+.link-editar {
+    $cor-destaque: #FCA502;
+
+    @extend .so-icone;
+    @extend .icone-editar;
+
+    &::before {
+        // Texto
+        color: gray;
+    }
+
+    &:hover {
+        &::before {
+            // Texto
+            color: $cor-destaque;
+        }
+    }
+}

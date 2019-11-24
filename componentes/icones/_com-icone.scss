@@ -1,0 +1,42 @@
+@import "icones/icone-grupo";
+@import "icones/icone-info";
+@import "icones/icone-inserir";
+@import "icones/icone-lista";
+@import "icones/icone-sistema";
+@import "icones/icone-email";
+@import "icones/icone-usuario";
+@import "icones/icone-senha-nova";
+@import "icones/icone-senha-confirm";
+@import "icones/icone-senha";
+@import "icones/icone-descricao";
+@import "icones/icone-alias";
+@import "icones/icone-pergunta";
+@import "icones/icone-voltar";
+@import "icones/icone-link";
+@import "icones/icone-menu";
+@import "icones/icone-detalhe";
+@import "icones/icone-editar";
+@import "icones/icone-excluir";
+
+.com-icone {
+    $tm: 30px;
+
+    // Visual
+    display: inline-block;
+
+    // Texto
+    line-height: $tm;
+    white-space: nowrap;
+    text-decoration: none;
+
+    // Margens
+    padding-left: 7px;
+    padding-right: 15px;
+
+    @extend %icone-pre;
+
+    &::before {
+        // Texto
+        font-size: 14px;
+    }
+}
