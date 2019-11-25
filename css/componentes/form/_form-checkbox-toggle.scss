@@ -17,6 +17,9 @@
         // Visual
         cursor: pointer;
 
+        // Margens
+        padding-right: 32px;
+
         &::before,
         &::after {
             // Conteúdo
@@ -25,10 +28,7 @@
             // Posicionamento
             position: absolute;
             top: 50%;
-            left: 100%;
-
-            // Transformar
-            transform: translateY(-50%);
+            right: 0;
 
             // Visual
             display: inline-block;
@@ -45,6 +45,9 @@
             // Visual
             border-radius: 4px;
             background: #DDD;
+
+            // Transformar
+            transform: translateY(-50%);
         }
 
         &::after {
@@ -59,6 +62,9 @@
             background: #FFF;
             box-shadow: 0 0 5px rgba(black, .2);
 
+            // Transformar
+            transform: translate(-100%, -50%);
+
             // Transições
             transition: transform .35s;
         }
@@ -70,7 +76,7 @@
             background: #21abac;
 
             // Transformar
-            transform: translateY(-50%) translateX(100%);
+            transform: translate(0, -50%);
         }
     }
 }
